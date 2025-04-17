@@ -1,9 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Página-1" id="7jYhNV8swbTERWOAWUyP">
-    <mxGraphModel>
+    <mxGraphModel dx="1428" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-4" value="Pesquisador" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-6" target="-y-QAuf1GnVwYoSTYmh6-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-6" value="Universidade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="130" y="525" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-8" target="-y-QAuf1GnVwYoSTYmh6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-8" value="- nome: String&#xa;- local: String&#xa;- inscricao: String&#xa;- pesquisadores: List" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=light-dark(#7EA6E0,#6CB4FF);strokeColor=#6c8ebf;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="130" y="585" width="210" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-10" value="AreaInteresse" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-11" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;- nome: String&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- titulacao: String&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- cargo: String&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- dataAssumiuCargo: Date&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- anosNoCargo: int&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- universidade: Universidade&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- areasDeInteresse: List&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=light-dark(#7EA6E0,#6CB4FF);strokeColor=#6c8ebf;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-16" value="&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- nome: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- pesquisadores: List&amp;lt;Pesquisador&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- rankings: List&amp;lt;Ranking&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=light-dark(#7EA6E0,#6CB4FF);strokeColor=#6c8ebf;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-17" target="-y-QAuf1GnVwYoSTYmh6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-17" value="Ranking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="450" y="585" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-18" value="&lt;div&gt;- area: AreaInteresse&lt;/div&gt;&lt;div&gt;- pesquisador: Pesquisador&lt;/div&gt;&lt;div&gt;- posicao: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=light-dark(#7EA6E0,#6CB4FF);strokeColor=#6c8ebf;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="450" y="645" width="210" height="105" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
