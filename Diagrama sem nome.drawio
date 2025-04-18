@@ -1,54 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Página-1" id="7jYhNV8swbTERWOAWUyP">
-    <mxGraphModel dx="1428" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1680" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-20" value="&lt;h1&gt;Cliente&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=19;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-20" value="&lt;h3&gt;Fabricante&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-22" target="-y-QAuf1GnVwYoSTYmh6-24">
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-22" value="&lt;div&gt;&lt;span&gt;- nome&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- contato&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=24;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-37" value="&lt;h3&gt;ModeloCarro&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-38" value="&lt;div&gt;- nomeModelo&lt;/div&gt;&lt;div&gt;- serie&lt;/div&gt;&lt;div&gt;- precoTabela&lt;/div&gt;&lt;div&gt;- precoCompra&lt;/div&gt;&lt;div&gt;- fabricante&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=24;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="-y-QAuf1GnVwYoSTYmh6-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="100" as="sourcePoint" />
+            <mxPoint x="520" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-41" value="&lt;h3&gt;FORD&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="500" y="145" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-42" target="-y-QAuf1GnVwYoSTYmh6-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.991;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-22">
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-42" value="&lt;h3&gt;FORD&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-43" target="-y-QAuf1GnVwYoSTYmh6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-43" value="&lt;h3&gt;HONDA&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-46" target="-y-QAuf1GnVwYoSTYmh6-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-46" value="&lt;h3&gt;Venda&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="800" y="430" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-47" value="&lt;div&gt;- comprador&lt;/div&gt;&lt;div&gt;- modeloCarro&lt;/div&gt;&lt;div&gt;- precoPago&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=24;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="490" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-49" value="&lt;h3&gt;Comprador&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="478" y="620" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-50" target="-y-QAuf1GnVwYoSTYmh6-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="140" as="targetPoint" />
+            <mxPoint x="310" y="705.4117647058824" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="357" y="140" />
+              <mxPoint x="300" y="705" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-22" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;- nome: String&lt;br&gt;- contato: String&lt;br&gt;- listaProdutos: List (produtos para os quais se registrou)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=16;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="320" height="140" as="geometry" />
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-50" value="&lt;div&gt;- nome&lt;/div&gt;&lt;div&gt;- endereco&lt;/div&gt;&lt;div&gt;- telefone&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=24;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
+          <mxGeometry x="478" y="680" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-23" value="&lt;h1&gt;Produtos&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=19;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
-          <mxGeometry x="40" y="400" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-24" value="&lt;div&gt;&lt;font&gt;- nome: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;- descricao: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;- preco: Double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;- itensRelacionados: List&amp;lt;ItemProduto&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=18;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="460" width="320" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-28" value="&lt;h1&gt;ItemProduto&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=19;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
-          <mxGeometry x="360" y="640" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-29" target="-y-QAuf1GnVwYoSTYmh6-34">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="840" y="250" as="targetPoint" />
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="590" as="sourcePoint" />
+            <mxPoint x="679" y="720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="840" y="700" />
+              <mxPoint x="960" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-29" value="- nome: String&#xa;- tipo: String" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=18;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
-          <mxGeometry x="360" y="700" width="320" height="60" as="geometry" />
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-53" value="&lt;h3&gt;Comprador&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=25;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="100" y="650" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-y-QAuf1GnVwYoSTYmh6-24" target="-y-QAuf1GnVwYoSTYmh6-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-33" value="&lt;h1&gt;Loja&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fontSize=19;fillColor=light-dark(#000000,#000000);" vertex="1" parent="1">
-          <mxGeometry x="680" y="70" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-y-QAuf1GnVwYoSTYmh6-34" value="&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;- nome: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;- produtosDisponiveis: List&amp;lt;Produto&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=16;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
-          <mxGeometry x="680" y="130" width="320" height="70" as="geometry" />
+        <mxCell id="-y-QAuf1GnVwYoSTYmh6-54" value="&lt;div&gt;- nome&lt;/div&gt;&lt;div&gt;- telefone&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=light-dark(#000000,#000000);fontSize=24;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="710" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
